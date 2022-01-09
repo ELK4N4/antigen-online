@@ -31,7 +31,6 @@ function App() {
         מהיר! ללא עלות! 50% יעילות!
         </h2>
         <br />
-        <br />
         <ReactiveButton
           buttonState={status}
           onClick={onClickHandler}
@@ -50,7 +49,7 @@ function App() {
           messageDuration={2000}
           disabled={false}
           buttonRef={null}
-          width={'70%'}
+          width={'80%'}
           height={50}
           animation={true}
         />

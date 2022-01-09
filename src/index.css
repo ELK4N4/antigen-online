@@ -32,7 +32,7 @@ h3 {
 .container {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  padding: 1px 50px;
+  padding: 0px 5%;
   height: 55%;
   width: 60%;
   display: flex;
@@ -44,14 +44,6 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50% );
-}
-
-.button {
-  width: 700;
-  height: 50;
-  font-weight: bold;
-  font-size: 20;
-  border-radius: 5px;
 }
 
 @media (max-width: 800px) {
@@ -72,25 +64,37 @@ h3 {
   h2 {
     font-size: 23px;
   }
+
+  .container {
+    padding: 0px 10%;
+  }
 }
 
 @media (max-width: 500px) {
   h1 {
-    font-size: 30px;
+    font-size: 33px;
   }
   
   h2 {
-    font-size: 20px;
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 15px;
   }
 }
 
 @media (max-width: 400px) {
   h1 {
-    font-size: 25px;
+    font-size: 31px;
   }
   
   h2 {
-    font-size: 17px;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
   }
 }
 
