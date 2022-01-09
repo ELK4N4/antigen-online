@@ -46,7 +46,7 @@ function App() {
           rounded
           size={'large'}
           block={false}
-          messageDuration={2000}
+          messageDuration={3000}
           disabled={false}
           buttonRef={null}
           width={'80%'}
