@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.555)), url('https://www.tulsa-health.org/sites/default/files/styles/fhd/public/2020-09/GettyImages-1215392772.jpg?itok=aOUQtP4J');
-  text-align: 'center';
+  text-align: center;
   direction: rtl;
 }
 
@@ -25,8 +25,8 @@ h2 {
   color: rgb(0, 27, 78);
 }
 
-h3 {
-  text-align: 'center';
+h4 {
+  text-align: center;
 }
 
 .container {
@@ -79,8 +79,8 @@ h3 {
     font-size: 21px;
   }
 
-  h3 {
-    font-size: 6px;
+  h4 {
+    font-size: 14px;
   }
 }
 
@@ -93,8 +93,8 @@ h3 {
     font-size: 18px;
   }
 
-  h3 {
-    font-size: 4px;
+  h4 {
+    font-size: 10px;
   }
 }
 
