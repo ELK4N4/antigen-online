@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/antigen-online/static/css/main.df27d0e5.css",
-    "main.js": "/antigen-online/static/js/main.29a40147.js",
+    "main.css": "/antigen-online/static/css/main.06681bb1.css",
+    "main.js": "/antigen-online/static/js/main.280650f4.js",
     "static/js/787.be0cec6e.chunk.js": "/antigen-online/static/js/787.be0cec6e.chunk.js",
     "index.html": "/antigen-online/index.html",
-    "main.df27d0e5.css.map": "/antigen-online/static/css/main.df27d0e5.css.map",
-    "main.29a40147.js.map": "/antigen-online/static/js/main.29a40147.js.map",
+    "main.06681bb1.css.map": "/antigen-online/static/css/main.06681bb1.css.map",
+    "main.280650f4.js.map": "/antigen-online/static/js/main.280650f4.js.map",
     "787.be0cec6e.chunk.js.map": "/antigen-online/static/js/787.be0cec6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df27d0e5.css",
-    "static/js/main.29a40147.js"
+    "static/css/main.06681bb1.css",
+    "static/js/main.280650f4.js"
   ]
 }
