@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReactiveButton from 'reactive-button';
+import Expand from "react-expand-animated";
 
 function App() {
   const [status, setStatus] = useState('idle');
@@ -23,7 +24,7 @@ function App() {
 
    return (
     <div style={{height: '100%', weight: '100%', padding: '10%'}}>
-      <div className='container'>
+      <div className={buttonText === "בדוק" ? 'container' : 'container expand'}>
         <br />
         <h1>
           בדיקת אנטיגן אונליין
@@ -55,10 +56,12 @@ function App() {
           animation={true}
         />
         <br />
+        <Expand open={buttonText !== "בדוק"} duration={500}>
+          <iframe className="star" src="https://ghbtns.com/github-btn.html?user=ELK4N4&repo=antigen-online&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+        </Expand>
         <h4>
           האתר נבנה בהומור המציאות והנתונים שהאתר מציג אינם אמיתיים ואינם מהווים שום אישור רפואי
         </h4>
-        <br />
       </div>
     </div>
   );
