@@ -32,7 +32,7 @@ h4 {
 .container {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  padding: 0px 5%;
+  padding: 0px 1%;
   height: 55%;
   width: 60%;
   display: flex;
@@ -44,6 +44,23 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50% );
+  transition: .8s;
+}
+
+.container.expand {
+  height: 60%;
+}
+
+.star {
+  padding-left: 65px;
+  transform: scale(1.1);
+  animation: grow-animation 1.4s linear infinite;
+}
+
+@keyframes grow-animation {
+  0% { transform: scale(1); }
+  50% {transform: scale(1.15); }
+  100% {transform: scale(1); }
 }
 
 @media (max-width: 800px) {
@@ -96,9 +113,4 @@ h4 {
   h4 {
     font-size: 13px;
   }
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
