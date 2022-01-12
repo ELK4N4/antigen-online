@@ -11,6 +11,7 @@ function App() {
 
    const onClickHandler = () => {
     setStatus('loading');
+    setColor('teal')
       setTimeout(() => {
         const index = Math.floor(Math.random() * 2);
         setResultsIndex(index)
